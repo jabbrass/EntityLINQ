@@ -164,7 +164,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -229,6 +228,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntityLINQ.DataModels\EntityLINQ.DataModels.csproj">
+      <Project>{f9113d3e-8552-484a-8155-f24eda8a4d58}</Project>
+      <Name>EntityLINQ.DataModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntityLINQ.Data\EntityLINQ.Data.csproj">
+      <Project>{630fb16f-07cb-4157-83b6-e429b511ce29}</Project>
+      <Name>EntityLINQ.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

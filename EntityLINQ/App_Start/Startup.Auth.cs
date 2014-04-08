@@ -7,6 +7,8 @@ using Microsoft.Owin.Security.DataProtection;
 using Owin;
 using System;
 using EntityLINQ.Models;
+using EntityLINQ.Controllers;
+using EntityLINQ.Data;
 
 namespace EntityLINQ
 {
